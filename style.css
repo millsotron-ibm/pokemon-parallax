@@ -86,6 +86,7 @@ header nav:hover > a:not(:hover) {
 
 .about a:hover {
   color: lightgray;
+  /* text-decoration: underline; */
 }
 
 /* .about a:visited {
@@ -95,6 +96,8 @@ header nav:hover > a:not(:hover) {
 about footer {
   padding: 0 5%;
   color: white;
+  display: flex;
+  flex-basis: space-between;
 }
 
 .social-media-icons {

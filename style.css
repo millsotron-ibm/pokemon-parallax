@@ -118,3 +118,28 @@ about footer {
 .social-media-icons i {
   margin-right: 5px;
 }
+
+.scroll-down {
+  border: 2px;
+  position: absolute;
+  bottom: 60%;
+  left: 50%;
+  color: white;
+  transform: translateX(-50%);
+  animation: scroll-down-animation 2s infinite;
+}
+
+@keyframes scroll-down-animation {
+  0% {
+    transform: translateX(-50%) translateY(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateX(-50%) translateY(15px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(-50%) translateY(0);
+    opacity: 1;
+  }
+}
